@@ -269,7 +269,7 @@ arr = np.array([2, -1, 5, 3, 7, 4, 6, 8])
 np.sort(arr)                        # array([-1, 2, 3, 4, 5, 6, 7, 8])
 np.abs(arr)                         # array([1, 2, 3, 4, 5, 6, 7, 8])
 np.sum(arr)                         # 34
-np.pow(arr, 2)                      # array([ 4,  0, 25,  9, 49, 16, 36, 64])
+np.power(arr, 2)                      # array([ 4,  0, 25,  9, 49, 16, 36, 64])
 
 
 arr = np.array([2, 0, 5, 3, 7, 4, 6, 8])
