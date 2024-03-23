@@ -1,0 +1,46 @@
+2024-03-23 11:20:44,534 - INFO - TEST - Accuracy: 0.8252203525641025
+2024-03-23 11:20:44,534 - INFO - CONFIG - Paths - traindata: ./data/train
+2024-03-23 11:20:44,534 - INFO - CONFIG - Paths - testdata: ./data/test
+2024-03-23 11:20:44,534 - INFO - CONFIG - Data - batchsize: 128
+2024-03-23 11:20:44,534 - INFO - CONFIG - Pooling - pool1size: 2
+2024-03-23 11:20:44,534 - INFO - CONFIG - Pooling - pool1stride: 2
+2024-03-23 11:20:44,534 - INFO - CONFIG - Pooling - pool2size: 2
+2024-03-23 11:20:44,534 - INFO - CONFIG - Pooling - pool2stride: 2
+2024-03-23 11:20:44,534 - INFO - CONFIG - Pooling - pool3size: 2
+2024-03-23 11:20:44,534 - INFO - CONFIG - Pooling - pool3stride: 2
+2024-03-23 11:20:44,535 - INFO - CONFIG - Device - device: cuda
+2024-03-23 11:20:44,535 - INFO - CONFIG - Conv - kernelsize1: 3
+2024-03-23 11:20:44,535 - INFO - CONFIG - Conv - kernelsize2: 3
+2024-03-23 11:20:44,535 - INFO - CONFIG - Conv - kernelsize3: 1
+2024-03-23 11:20:44,535 - INFO - CONFIG - Conv - kernelsize4: 3
+2024-03-23 11:20:44,535 - INFO - CONFIG - Conv - kernelsize5: 3
+2024-03-23 11:20:44,535 - INFO - CONFIG - Conv - conv1in: 3
+2024-03-23 11:20:44,535 - INFO - CONFIG - Conv - conv1out: 256
+2024-03-23 11:20:44,535 - INFO - CONFIG - Conv - conv2in: 256
+2024-03-23 11:20:44,535 - INFO - CONFIG - Conv - conv2out: 512
+2024-03-23 11:20:44,535 - INFO - CONFIG - Conv - conv3in: 512
+2024-03-23 11:20:44,535 - INFO - CONFIG - Conv - conv3out: 1024
+2024-03-23 11:20:44,535 - INFO - CONFIG - Conv - conv4in: 1024
+2024-03-23 11:20:44,535 - INFO - CONFIG - Conv - conv4out: 2048
+2024-03-23 11:20:44,535 - INFO - CONFIG - Conv - conv5in: 2048
+2024-03-23 11:20:44,535 - INFO - CONFIG - Conv - conv5out: 4096
+2024-03-23 11:20:44,535 - INFO - CONFIG - Linear - l1in: 1024
+2024-03-23 11:20:44,535 - INFO - CONFIG - Linear - l1out: 4096
+2024-03-23 11:20:44,535 - INFO - CONFIG - Linear - l2in: 4096
+2024-03-23 11:20:44,535 - INFO - CONFIG - Linear - l2out: 1024
+2024-03-23 11:20:44,535 - INFO - CONFIG - Linear - l3in: 1024
+2024-03-23 11:20:44,535 - INFO - CONFIG - Linear - l3out: 10
+2024-03-23 11:20:44,535 - INFO - CONFIG - View - v1: -1
+2024-03-23 11:20:44,535 - INFO - CONFIG - View - v2: 1024
+2024-03-23 11:20:44,535 - INFO - CONFIG - Training - numepochs: 10
+2024-03-23 11:20:44,535 - INFO - CONFIG - Training - learningrate: 0.0005
+2024-03-23 11:20:44,535 - INFO - TRAINING - Epoch: 1, Loss per Epoch: 512.1892700195312
+2024-03-23 11:20:44,535 - INFO - TRAINING - Epoch: 2, Loss per Epoch: 320.4618225097656
+2024-03-23 11:20:44,535 - INFO - TRAINING - Epoch: 3, Loss per Epoch: 237.1293487548828
+2024-03-23 11:20:44,535 - INFO - TRAINING - Epoch: 4, Loss per Epoch: 187.32826232910156
+2024-03-23 11:20:44,535 - INFO - TRAINING - Epoch: 5, Loss per Epoch: 152.0181121826172
+2024-03-23 11:20:44,535 - INFO - TRAINING - Epoch: 6, Loss per Epoch: 117.43788146972656
+2024-03-23 11:20:44,535 - INFO - TRAINING - Epoch: 7, Loss per Epoch: 89.4163818359375
+2024-03-23 11:20:44,535 - INFO - TRAINING - Epoch: 8, Loss per Epoch: 71.31609344482422
+2024-03-23 11:20:44,535 - INFO - TRAINING - Epoch: 9, Loss per Epoch: 54.68770980834961
+2024-03-23 11:20:44,535 - INFO - TRAINING - Epoch: 10, Loss per Epoch: 45.1429443359375
